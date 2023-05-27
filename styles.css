@@ -1,0 +1,101 @@
+:root {
+    font-family: "roboto", sans-serif;
+    font-style:italic;
+}
+
+
+
+html {
+    color-scheme: light-dark;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    height: 100vh;
+}
+
+.header {
+    border: 3px solid red;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+main {
+    background-color: #2f4565
+}
+
+
+.header > h1 {
+    color: white;
+    padding-right: 10px;
+    font-family: "press Start 2p";
+    line-height: 2rem;
+}
+
+.main-section {
+    border: 3px solid green;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.buttons {
+    border: 3px solid yellow;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+button {
+    border-radius: 25px;
+    border: none;
+    background-color: transparent;
+}
+
+button:hover {
+    scale: 1.5;
+    cursor: grab;
+    transition: 500ms linear;
+}
+
+
+.buttons img {
+    border-radius: 55px;
+    padding: 5px;
+    height: 80px;
+    width: 80px;
+}
+
+.results {
+    border: 3px solid orange;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.3rem;
+    gap: 20px;
+}
+
+#roundResult {
+    font-size: 2rem;
+    transition: all 0.5s ease;
+}
+
+
+.round {
+    border: 3px solid orange;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+}
